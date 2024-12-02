@@ -1,7 +1,7 @@
 {
-  "name": "sails-mysql",
+  "name": "sails-mysql-json-na",
   "version": "3.0.1",
-  "description": "MySQL adapter for Sails.js",
+  "description": "Fork of the MySQL adapter for Sails.js, to use JSON types",
   "main": "lib/adapter.js",
   "scripts": {
     "test": "node ./node_modules/mocha/bin/mocha test/adapter/unit --timeout 10000 --recursive && node test/adapter/integration/runner",
@@ -19,7 +19,8 @@
     "mysql",
     "orm",
     "waterline",
-    "sails"
+    "sails",
+    "json"
   ],
   "author": "Mike McNeil",
   "license": "MIT",
