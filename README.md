@@ -10,7 +10,7 @@ Install from NPM.
 
 ```bash
 # In your app:
-$ npm install sails-mysql
+$ npm install sails-mysql-json-na
 ```
 
 ## Help
