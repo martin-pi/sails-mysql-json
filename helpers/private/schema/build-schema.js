@@ -37,7 +37,7 @@ module.exports = function buildSchema(definition) {
       case '_boolean':
         return 'BOOLEAN';
       case '_json':
-        return 'LONGTEXT';
+        return 'JSON';
       case '_ref':
         return 'LONGTEXT';
 
