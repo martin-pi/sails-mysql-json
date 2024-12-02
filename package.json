@@ -1,7 +1,7 @@
 {
-  "name": "sails-mysql-json-na",
+  "name": "@martin-pi/sails-mysql-json-na",
   "version": "3.0.1",
-  "description": "Fork of the MySQL adapter for Sails.js, to use JSON types",
+  "description": "Fork of the MySQL adapter for Sails.js to use JSON fields with minimal changes from the original adapter.",
   "main": "lib/adapter.js",
   "scripts": {
     "test": "node ./node_modules/mocha/bin/mocha test/adapter/unit --timeout 10000 --recursive && node test/adapter/integration/runner",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/balderdashy/sails-mysql.git"
+    "url": "https://github.com/martin-pi/sails-mysql-json.git"
   },
   "keywords": [
     "mysql",
