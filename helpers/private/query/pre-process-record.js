@@ -70,7 +70,7 @@ module.exports = function preProcessRecord(options) {
       var columnName = attrDef.columnName;
 
       // JSON stringify the values provided for any `type: 'json'` attributes
-      // because MySQL can't store JSON.
+      // MySQL can store JSON, but accepts the value for it as a string.
       if (attrDef.type === 'json' && _.has(record, columnName)) {
 
         // Special case: If this is the `null` literal, leave it alone.

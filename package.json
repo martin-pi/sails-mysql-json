@@ -1,6 +1,6 @@
 {
   "name": "@martin-pi/sails-mysql-json-na",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "description": "Fork of the MySQL adapter for Sails.js to use JSON fields with minimal changes from the original adapter.",
   "main": "lib/adapter.js",
   "scripts": {
